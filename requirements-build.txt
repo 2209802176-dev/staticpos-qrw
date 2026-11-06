@@ -1,0 +1,6 @@
+# Build-only Python dependencies for the pinned ArduPilot 4.6.3 checkout.
+empy==3.3.4
+future==1.0.0
+intelhex==2.3.0
+pexpect==4.9.0
+ptyprocess==0.7.0

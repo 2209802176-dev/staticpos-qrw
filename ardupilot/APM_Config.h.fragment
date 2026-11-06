@@ -1,0 +1,4 @@
+// Static-position experiment. Independent output; original navigation retained.
+#define USERHOOK_INIT userhook_init();
+#define USERHOOK_MEDIUMLOOP userhook_MediumLoop();
+#define USERHOOK_50HZLOOP userhook_50Hz();

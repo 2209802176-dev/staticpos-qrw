@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, cite this repository and the exact version or commit."
+title: "StaticPos QRW: Quality-weighted robust GPS windows for static-position research"
+type: software
+authors:
+  - name: "2209802176-dev"
+repository-code: "https://github.com/2209802176-dev/staticpos-qrw"
+license: GPL-3.0-or-later
+keywords:
+  - GPS
+  - robust estimation
+  - ArduPilot
+  - embedded systems

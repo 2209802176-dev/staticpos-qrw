@@ -1,0 +1,66 @@
+name: Bug report / 问题报告
+description: Report a reproducible algorithm, build, telemetry or viewer problem.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use synthetic input where possible. Do not post credentials, private paths or real location logs.
+        For a potentially exploitable security issue, read SECURITY.md before sharing details publicly.
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected component / 相关组件
+      options:
+        - Core algorithm / 核心算法
+        - Firmware build or adapter / 固件构建或适配
+        - Telemetry protocol / 遥测协议
+        - Viewer or recording / 显示或记录
+        - Documentation / 文档
+        - Not yet known / 尚未定位
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Commit or release / 代码版本
+      placeholder: Commit SHA, tag or source archive identifier
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / 环境
+      description: OS, Python and compiler; board/firmware, GPS rate, transport and baud if hardware is involved.
+      placeholder: Host OS; Python; CXX; board; input rate; COM or UDP; baud
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      description: Give the smallest command sequence or synthetic input that reproduces the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: Expected and actual behavior / 预期与实际
+      description: Include validity states, source timestamps and snapshot sequence when relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Minimal log excerpt / 最小日志片段
+      description: Remove real coordinates, device identifiers, personal paths and secrets first.
+      render: text
+  - type: checkboxes
+    id: preparation
+    attributes:
+      label: Before submitting / 提交前
+      options:
+        - label: I searched existing issues and included reproducible steps.
+          required: true
+        - label: I have removed private location data and credentials from the public report.
+          required: true

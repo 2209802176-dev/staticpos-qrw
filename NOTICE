@@ -1,0 +1,19 @@
+Static Position V3 / qrw_w90_k3
+
+The project-specific source in this repository is distributed under the GNU
+General Public License, version 3 or (at your option) any later version
+(SPDX-License-Identifier: GPL-3.0-or-later). See LICENSE for the license text.
+
+The ArduPilot adapter is intended for ArduCopter 4.6.3 at upstream commit
+92b0cd788ec29406f26c6f9c31d5ceedbd1cc538. ArduPilot is a separate upstream
+project; its original copyright and license notices remain applicable.
+Official upstream: https://github.com/ArduPilot/ardupilot
+
+This repository includes project-specific source and reproducible integration
+instructions. The local vendor directory, toolchain, build caches and private
+acquisition logs are excluded from the public source tree. Where firmware is
+distributed, retain the exact upstream revision, project changes, build
+instructions and relevant dependency notices together with the source offer.
+
+The LICENSE file is copied verbatim from the pinned ArduPilot COPYING.txt.
+Do not remove copyright or license notices when copying upstream files.

@@ -1,0 +1,48 @@
+name: Feature request / 功能建议
+description: Explain a concrete problem and a proposed improvement.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve / 要解决的问题
+      description: Describe the user or experiment need and the current limitation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior / 建议行为
+      description: Explain what should happen, with a small example if helpful.
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Impact on scope / 对范围的影响
+      options:
+        - Existing fixed-position experiment / 现有定点实验范围
+        - Algorithm or parameter change / 算法或参数变更
+        - Platform or navigation scope extension / 平台或导航范围扩展
+        - Unsure / 尚不确定
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and tradeoffs / 替代方案与取舍
+      description: Include expected resource, latency, compatibility or data requirements where relevant.
+  - type: textarea
+    id: validation
+    attributes:
+      label: How to verify / 如何验证
+      description: Suggest synthetic cases, same-input baselines or hardware measurements that could assess the proposal.
+    validations:
+      required: true
+  - type: checkboxes
+    id: preparation
+    attributes:
+      label: Before submitting / 提交前
+      options:
+        - label: I understand that a new algorithm or operating scope needs its own validation.
+          required: true

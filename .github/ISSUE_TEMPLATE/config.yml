@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Quick start / 快速开始
+    url: https://github.com/2209802176-dev/staticpos-qrw/blob/main/docs/QUICKSTART.zh-CN.md
+    about: Run the synthetic host checks and learn the display workflow.
+  - name: Troubleshooting / 故障排查
+    url: https://github.com/2209802176-dev/staticpos-qrw/blob/main/docs/TROUBLESHOOTING.md
+    about: Diagnose build, source-time, telemetry and display problems.
+  - name: Security reporting / 安全报告
+    url: https://github.com/2209802176-dev/staticpos-qrw/blob/main/SECURITY.md
+    about: Read the policy before sharing vulnerability details.

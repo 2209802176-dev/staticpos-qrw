@@ -1,0 +1,6 @@
+# Windows display / collection. tkinter is provided by the Python installer.
+pymavlink>=2.4.49,<3
+pyserial>=3.5,<4
+# Offline NumPy reference and historical replay only; not used on the flight controller.
+numpy>=2.0,<3
+pandas>=2.2,<4
